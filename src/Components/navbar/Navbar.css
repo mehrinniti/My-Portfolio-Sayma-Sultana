@@ -1,0 +1,10 @@
+.nav-btn:focus{
+    border-bottom: 2px solid white;
+  }
+.bar-icon{
+    color: white;
+}
+.bar-icon:focus{
+    border: 0px solid black;
+    background-color: black;
+}
