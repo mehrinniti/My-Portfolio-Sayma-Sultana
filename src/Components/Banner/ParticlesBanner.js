@@ -5,15 +5,23 @@ import './ParticlesBanner.css';
 const ParticlesBanner = () => {
     return (
         <Particles
+            // className="particles-canvas"
             params={{
                 particles: {
                     number: {
-                        value: 200,
+                        value: 40,
                         density: {
                             enable: true,
-                            value_area: 1000,
+                            value_area: 900,
                         }
                     },
+                    shape: {
+                        type: "star",
+                        stroke: {
+                            width: 6,
+                            color: "#5078ff"
+                        }
+                    }
                 },
             }}
         />

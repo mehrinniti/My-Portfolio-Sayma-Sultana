@@ -19,6 +19,7 @@
     align-items: center;
     text-align: center;
     font-family: "Roboto Condensed" sans-serif;
+    z-index: 1;
 }
 .main-info h1{
     text-transform: uppercase;
@@ -37,6 +38,7 @@
     color: white;
     font-size: 30px;
     font-weight: bolder;
+    border-bottom: 2px solid #5078ff;
 }
 .resume-btn{
     text-decoration: none;
@@ -51,16 +53,30 @@
     padding-left: 25px;
     padding-right: 25px;
     word-spacing: 1px;
+    margin-top: 60px;
 }
 .resume-btn:hover{
     background-color: #5078ff;
     color: white;
     font-size:18px;
     font-weight: bold;
+    transition: 2s ;
 }
 .resume-btn:focus{
     background-color: #5078ff;
     color: white;
     font-size:18px;
     font-weight: bold;
+}
+
+@media (max-width: 374px) {
+    .main-info h1{
+        font-size: 50px;
+    }
+    .main-info h3{
+        font-size: 23px;
+    }
+    .typed-text{
+        font-size: 25px;
+    }
 }

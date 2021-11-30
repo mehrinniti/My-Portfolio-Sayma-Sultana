@@ -1,6 +1,9 @@
 .tsparticles-canvas-el{
     position: absolute;
-    height: 100vh;
+    height: 90vh !important;
     width: 100vw;
     z-index: 1;
 }
+/* .particles-canvas{
+    display: block !important;
+} */

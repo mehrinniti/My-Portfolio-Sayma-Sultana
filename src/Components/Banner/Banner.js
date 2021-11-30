@@ -16,7 +16,7 @@ const Banner = () => {
                     loop
 
                 /></h3>
-                <a href="#" className="resume-btn">Download My Resume</a>
+                <a target="_blank" href="https://drive.google.com/file/d/1htNGAvMl25msEkLkhGNJ0V4-AY_ZQRt0/view" className="resume-btn">Download My Resume</a>
                 {/* <button type="button" class="btn btn-outline-info rounded-pill resume-btn ">Download My Resume</button> */}
 
 
