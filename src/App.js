@@ -10,6 +10,8 @@ import {
 import Navigation from './Components/Navigation/Navigation';
 import About from './Components/AboutMe/About/About';
 import Blogs from './Components/Blogs/Blogs';
+import Resume from './Components/MyResume/Resume/Resume';
+import Contact from './Components/Contact/Contact';
 
 
 function App() {
@@ -29,10 +31,13 @@ function App() {
             <About></About>
           </Route>
           <Route path="/resume">
-            {/* <SignUp></SignUp> */}
+            <Resume></Resume>
           </Route>
           <Route path="/blogs">
             <Blogs></Blogs>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
           </Route>
 
           <Route path="*">

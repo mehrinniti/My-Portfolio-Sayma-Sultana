@@ -1,0 +1,61 @@
+.resume-container{
+    background-color: #2c2d2f;
+    
+    padding-top: 23px;
+    padding-bottom: 100px;
+}
+.icon-section{
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: 18px;
+}
+.resume-titles{
+    color: white;
+    padding-top: 40px;
+    font-size: 18px;
+}
+.resume-titles .cv-title > p  {
+    padding-left: 25px;
+}
+.resume-titles .cv-title > p   {
+    /* text-decoration: none; */
+    color: white;
+    /* padding-top: 40px; */
+    font-size: 18px;
+    
+}
+.cv-title{
+    text-decoration: none;
+}
+.resume-titles .cv-title > p:hover{
+    color: black !important;
+    border: 1px solid white;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: white;
+    padding-left: 25px !important;
+    font-weight: 600;
+}
+/* .resume-titles .cv-title > p > span:hover{
+    color: black;
+    
+} */
+
+/* .resume-titles .cv-title p > span:focus{
+    color: black !important;
+    border: 1px solid white;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: white;
+    padding-left: 0px !important;
+    font-weight: 600;
+} */
+/* .resume-titles .cv-title  p span:hover{
+    color: black;
+} */

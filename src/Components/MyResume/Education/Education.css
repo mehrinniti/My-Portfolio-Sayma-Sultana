@@ -1,0 +1,25 @@
+.edu-container{
+    padding-top: 5px;
+    
+}
+.edu-container  li{
+    color: #5078ff;
+    font-size: 30px;
+}
+.edu-container  li  h4{
+    color: #5078ff;
+}
+.edu-container li h6{
+    color: white;
+}
+.years{
+    border: 1px solid #5078ff;
+    background-color: #5078ff;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.edu-year > p{
+    margin-top: 70px;
+}
