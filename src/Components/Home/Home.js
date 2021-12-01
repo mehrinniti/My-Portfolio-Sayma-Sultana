@@ -1,7 +1,6 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import ParticlesBanner from '../Banner/ParticlesBanner';
-import Navigation from '../Navigation/Navigation';
 
 
 const Home = () => {

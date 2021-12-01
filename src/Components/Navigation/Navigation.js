@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navigation.css';
 import logo from "../../images/logo.svg"
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     return (
@@ -15,16 +16,19 @@ const Navigation = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto mb-1 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active text-white nav-btn" aria-current="page" href="#"><span className="menu">HOME</span></a>
+                            <Link to="/home" className="nav-link active text-white nav-btn" ><span className="menu">HOME</span></Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white  nav-btn" href="#"><span className="menu">ABOUT ME</span></a>
+                            <Link to="/about" className="nav-link text-white  nav-btn" ><span className="menu">ABOUT ME</span></Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white  nav-btn" href="#"><span className="menu">RESUME</span></a>
+                            <Link to="/resume" className="nav-link text-white  nav-btn" ><span className="menu">RESUME</span></Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white  nav-btn" href="#"><span className="menu">CONTACT</span></a>
+                            <Link to="/blogs" className="nav-link text-white  nav-btn" ><span className="menu">BLOGS</span></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/contact" className="nav-link text-white  nav-btn"><span className="menu">CONTACT</span></Link>
                         </li>
 
                     </ul>

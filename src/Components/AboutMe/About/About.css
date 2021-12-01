@@ -1,0 +1,62 @@
+
+.about-container{
+    background-color: #2c2d2f;
+    
+    padding-top: 23px;
+}
+.title{
+    
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+    border-left-width: thick;
+    margin-bottom: 50px;
+    
+}
+.title h1{
+    
+    color: #5078ff;
+}
+.about-me{
+    /* margin-left: 100px; */
+    /* margin-top: 23px; */
+    font-size: 55px;
+    font-family: serif;
+    /* border-bottom: 1px dashed gray; */
+    
+
+}
+.user-icon {
+    /* margin-right: 100px; */
+    /* margin-top: 30px; */
+}
+.subtitle-name{
+    color: white;
+    font-family:serif;
+    font-size:36px;
+    line-height: 54px;
+}
+.summary{
+    color: white;
+    font-weight:600;
+    font-size: large;
+}
+img .sign-img{
+    padding-top: 50px;
+    margin-top: 80px;
+}
+.info p{
+    color: white;
+    font-size: large;
+    line-height: 15px;
+    margin-top: 10px;
+}
+.info p span{
+    font-weight: 600;
+}
+.social-icon{
+    color: #00A3E1;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.social-icon:hover{
+    color: white;
+}

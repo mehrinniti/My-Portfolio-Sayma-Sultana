@@ -11,7 +11,7 @@
 .navbar-nav{
     gap: 30px;
 }
-.navbar-nav > li > a{
+.navbar-nav > li >  a{
     
     border-top: 2px solid rgba(255, 255, 255, 0);
     margin: 0px !important;
@@ -21,19 +21,19 @@
     letter-spacing: 0.6px;
 }
 .navbar-nav > li > a:hover{
-    border-top: 2px solid #5078ff;
-    color: #5078ff;
+    border-top: 2px solid #00A3E1 !important;
+    color: #00A3E1;
 }
 .menu:hover{
-    color: #5078ff;
+    color: #00A3E1;
 }
 /* .nav-btn:focus{
     background-color: #5078ff;
     order-bottom:  3px solid #e45529;
 } */
 .nav-btn:focus{
-    border-top: 2px solid #5078ff;
-    color: #5078ff;
+    border-top: 2px solid #00A3E1;
+    color: #00A3E1;
   }
 .bar-icon{
     color: white;
@@ -41,4 +41,7 @@
 .bar-icon:focus{
     border: 0px solid black;
     background-color: black;
+}
+.link{
+    text-decoration: none;
 }

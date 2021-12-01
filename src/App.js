@@ -8,6 +8,8 @@ import {
   Link
 } from "react-router-dom";
 import Navigation from './Components/Navigation/Navigation';
+import About from './Components/AboutMe/About/About';
+import Blogs from './Components/Blogs/Blogs';
 
 
 function App() {
@@ -20,17 +22,17 @@ function App() {
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path="/services">
-            {/* <Services></Services> */}
+          <Route path="/home">
+            <Home></Home>
           </Route>
-          <Route path="/login">
-            {/* <Login></Login> */}
+          <Route path="/about">
+            <About></About>
           </Route>
-          <Route path="/signup">
+          <Route path="/resume">
             {/* <SignUp></SignUp> */}
           </Route>
-          <Route path="/doctors">
-            {/* <Doctors></Doctors> */}
+          <Route path="/blogs">
+            <Blogs></Blogs>
           </Route>
 
           <Route path="*">

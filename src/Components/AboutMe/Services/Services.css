@@ -1,0 +1,26 @@
+
+
+.services-title{
+    text-align: center;
+}
+.service-container{
+    text-align: center;
+}
+.services-title span{
+
+    border-left: 3px solid #00A3E1;
+    border-right: 3px solid #00A3E1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.services h3{
+    color: white;
+    font-family: serif;
+}
+.services p{
+    color: white;
+}
+.services span{
+    color: #5078ff;
+    font-size: 56px;
+}
