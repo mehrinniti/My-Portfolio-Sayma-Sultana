@@ -11,7 +11,7 @@ const Contact = () => {
     return (
         <div className=" contact-container">
             <div>
-                <div className="title container ">
+                <div className="title container pt-4">
                     <h1 className="about-me d-flex justify-content-between">Contact Me.
                         <span className="user-icon"><i class="far fa-envelope user-icon"></i></span>
                     </h1>
