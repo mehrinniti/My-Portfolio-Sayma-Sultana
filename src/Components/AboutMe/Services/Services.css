@@ -24,3 +24,18 @@
     color: #5078ff;
     font-size: 56px;
 }
+
+/************* Mobile *************/
+@media screen and (max-width: 576px) {
+    .services{
+        display: grid;
+        grid-column: 1;
+    }
+}
+/************* Tablet *************/
+@media screen and (max-width: 992px) {
+    .services{
+        display: grid;
+        grid-column: 2;
+    }
+}

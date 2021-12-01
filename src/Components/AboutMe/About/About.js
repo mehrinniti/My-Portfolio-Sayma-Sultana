@@ -27,7 +27,7 @@ const About = () => {
                         <h2 className="subtitle-name ml-0">Personal Information</h2>
 
                         <div class="">
-                            <div class="row align-items-start">
+                            <div class="row align-items-start profile-container">
 
                                 <div class="col-7 col-xs-12 col-sm-12 col-md-12 col-lg-7 col-12 info">
                                     <p><span>Name : </span>Sayma Sultana</p>

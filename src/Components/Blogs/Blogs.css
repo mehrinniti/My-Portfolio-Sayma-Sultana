@@ -11,12 +11,9 @@
     align-items: center;
     padding-top: 200px;
 }
-.coming{
-    color: #5078ff;
-}
-.dot-2{
-    color: #00A3E1;
-}
-.dot-3{
-    color: #5078ff;
+
+@media screen and (max-width: 320px) {
+    .blog{
+        font-size:xx-large;
+    }
 }

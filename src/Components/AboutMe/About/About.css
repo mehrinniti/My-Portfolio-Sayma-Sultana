@@ -60,3 +60,15 @@ img .sign-img{
 .social-icon:hover{
     color: white;
 }
+
+@media screen and (max-width: 992px) {
+    .profile-container{
+        flex-direction: column-reverse;
+    }
+    .info{
+        padding-top: 20px;
+    }
+    .social-icon{
+        padding-bottom: 50px;
+    }
+}
