@@ -26,7 +26,11 @@ const Projects = () => {
                 </div>
                 <div class="col-3 edu-year">
                     {/* <p className="years mt-4 ">2018-2022</p> */}
-                    <Link to="/mixmart"><p className="years mt-4 details-btn">More Details</p></Link>
+                    <Link to="/mixmart"><p className="years mt-4 details-btn ">More Details</p></Link>
+                    <br /><br />
+                    <Link className="delivery-btn mb-5 " to="/delivery"><p className="years mt-4 details-btn delivery-btn">More Details</p></Link>
+                    <br /><br />
+                    <Link to="/healthcare"><p className="years mt-4 details-btn">More Details</p></Link>
                     {/* <p className="years clg">2014-2016</p>
                     <p className="years">2010-2014</p> */}
                 </div>

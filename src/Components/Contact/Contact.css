@@ -1,0 +1,39 @@
+.contact-container{
+    background-color: #2c2d2f;
+    padding-bottom: 200px;
+    
+}
+.contact-form{
+    margin-left: 400px;
+}
+.name-field{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+}
+.email-field{
+    /* margin-right: 30px; */
+    margin-bottom: 30px;
+    padding: 8px 40px;
+}
+.msg-field{
+    padding: 25px 197px;
+    margin-top: 5px;
+    text-align: left;
+}
+.send-btn{
+    padding: 6px 36px;
+    background-color: #2c2d2f;
+    margin-top: 25px;
+    border: 3px solid #5078ff;
+    border-radius: 4px;
+    color: #5078ff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 198px;
+}
+.send-btn:hover{
+    color: white;
+    background-color: #5078ff;
+    transition: 1s;
+}
